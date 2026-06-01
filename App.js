@@ -12,7 +12,7 @@ import {
 import axios from 'axios';
 
 // URL DO SEU BACKEND EM FLASK (JÁ COM O SEU IP LOCAL CONFIGURADO)
-const API_URL = 'http://192.168.1.103:5000/analisar';
+const API_URL = 'https://dark-towns-matter.loca.lt';;
 
 export default function App() {
   const [texto, setTexto] = useState('');
